@@ -11,7 +11,7 @@
 
 ---
 
-<b>[🇷🇺 README на русском](https://github.com/Jpan1504/jpan-authbot/blob/main/README-ru.md/)</b>
+<b>[For More Information](https://github.com/Jpan1504/jpan-authbot/blob/main/README-ru.md/)</b>
 
 ### 🍕 Features
 
