@@ -1,0 +1,5 @@
+py-cord
+requests
+aiohttp
+quart
+pystyle

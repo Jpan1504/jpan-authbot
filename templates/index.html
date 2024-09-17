@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Apply a stronger background blur effect */
+        .backdrop-blur {
+            backdrop-filter: blur(50px); /* Increased blur intensity */
+        }
+
+        /* Ensure the success message text breaks into two lines */
+        .success-message {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="bg-cover bg-center h-screen flex justify-center items-center" style="background-image: url('static/banner.png');">
+    <div class="backdrop-blur bg-black bg-opacity-70 rounded-lg p-10 w-full max-w-xl h-auto text-center shadow-2xl">
+        <!-- Success Message -->
+        <div class="bg-green-500 text-white p-4 rounded-lg mb-6 success-message">
+            <div class="flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Success</span>
+            </div>
+            <span class="mt-2">You have successfully verified in LIGIT MP!</span>
+        </div>
+        
+        <h1 class="text-white text-4xl font-bold mb-4">LIGIT MP</h1>
+        <p class="text-white text-lg mb-8">Please verify here to automatically join the server after the term. Rest assured, we won't move anyone to another server, so it's safe for everyone.</p>
+        <!-- Logo Image -->
+        <img src="static/logo.png" alt="Logo" class="mx-auto mb-8 w-32 h-32 rounded-full">
+    </div>
+</body>
+</html>
